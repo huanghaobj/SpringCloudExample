@@ -1,5 +1,4 @@
 # SpringCloudExample
-springcloud_demo
 
 register：注册中心
 
