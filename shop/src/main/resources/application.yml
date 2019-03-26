@@ -8,3 +8,13 @@ eureka:
       defaultZone: http://localhost:1111/eureka
 server:
   port: 1311
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  endpoint:
+    health:
+      show-details: ALWAYS
+
